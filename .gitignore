@@ -1,0 +1,40 @@
+# Dependencies and build outputs
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+out/
+build/
+dist/
+
+# Secrets and environment files
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+!.env.local.example
+!**/.env.local.example
+
+# Local databases and backups
+backups/
+*.sqlite
+*.sqlite3
+*.db
+*.sqlite-shm
+*.sqlite-wal
+*.files
+*_backup*.json
+wardrobe_backup*.json
+
+# Generated files
+*.tsbuildinfo
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+
+# Deployment
+.vercel/
